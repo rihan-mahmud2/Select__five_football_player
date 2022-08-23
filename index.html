@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>select__best__five</title>
+
+    <!-- raw css link  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- google font cdn  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins&family=Roboto:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!--================================================Header starts here ==============================================================================-->
+    <header class="container-fluid bg-dark header">
+      <div class="header-img-top">
+        <img src="images/Mask Group.png" class="img-fluid" alt="" />
+      </div>
+      <div class="header-content text-center w-50 mx-auto">
+        <h1 class="header-heading">
+          Click the selected button to buy your five favourite player
+        </h1>
+        <p class="text-break fs-3 text-white">
+          If you are intersted to be club woner and buy some players for your
+          club. You are in the right place. Explore and panir dame player kinun.
+          This is going to be the last opurtunity to purchase players
+        </p>
+      </div>
+      <div class="header-img-bottom">
+        <img src="images/messi.png" class="img-fluid" alt="" />
+      </div>
+    </header>
+    <!--================================================Header ends here ==============================================================================-->
+
+    <!--=====================Main section starts here ==============-->
+
+    <main class="container-fluid bg-dark">
+      <section>
+        <div class="container text-center py-5">
+          <div class="row">
+            <div class="col-lg-8 col-md-12">
+              <div class="row" id="player-section">
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="card border-secondary bg-dark shadow-lg text-white"
+                    style="width: 16rem; height: 22rem"
+                  >
+                    <img
+                      src="images/Rectangle 144 (1).png"
+                      class="card-img-top"
+                      alt="}"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Naymer</h5>
+
+                      <small class="me-2 fs-5">45 Goals</small>
+                      <small class="fs-5">25 Assist</small>
+
+                      <button
+                        href="#"
+                        class="btn btn-primary d-block w-50 mx-auto my-3"
+                        onclick="displaySelectedPlayer(this)"
+                      >
+                        Select Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="card border-secondary bg-dark shadow-lg text-white"
+                    style="width: 16rem; height: 22rem"
+                  >
+                    <img
+                      src="images/Rectangle 144 (2).png"
+                      class="card-img-top"
+                      alt="}"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Kylian Mbappé</h5>
+
+                      <small class="me-2 fs-5">40 Goals</small>
+                      <small class="fs-5">90 Assist</small>
+
+                      <button
+                        href="#"
+                        class="btn btn-primary d-block w-50 mx-auto my-3 inactive"
+                        onclick="displaySelectedPlayer(this)"
+                      >
+                        Select Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="card border-secondary bg-dark shadow-lg text-white"
+                    style="width: 16rem; height: 22rem"
+                  >
+                    <img
+                      src="images/Rectangle 144 (4).png"
+                      class="card-img-top"
+                      alt="}"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Sergio Ramos</h5>
+
+                      <small class="me-2 fs-5">60 Goals</small>
+                      <small class="fs-5">35 Assist</small>
+
+                      <button
+                        href="#"
+                        class="btn btn-primary d-block w-50 mx-auto my-3"
+                        onclick="displaySelectedPlayer(this)"
+                      >
+                        Select Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-3">
+                  <div
+                    class="card border-secondary bg-dark shadow-lg text-white"
+                    style="width: 16rem; height: 22rem"
+                  >
+                    <img
+                      src="images/Rectangle 144 (5).png"
+                      class="card-img-top"
+                      alt=""
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Renato Sanches</h5>
+
+                      <small class="me-2 fs-5">45 Goals</small>
+                      <small class="fs-5">37 Assist</small>
+
+                      <button
+                        href="#"
+                        class="btn btn-primary d-block w-50 mx-auto my-3"
+                        onclick="displaySelectedPlayer(this)"
+                      >
+                        Select Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-3">
+                  <div
+                    class="card border-secondary bg-dark shadow-lg text-white"
+                    style="width: 16rem; height: 22rem"
+                  >
+                    <img
+                      src="images/Rectangle 144 (6).png"
+                      class="card-img-top"
+                      alt=""
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Vítor Machado</h5>
+
+                      <small class="me-2 fs-5">32 Goals</small>
+                      <small class="fs-5">79 Assist</small>
+
+                      <button
+                        href=""
+                        class="btn btn-primary d-block w-50 mx-auto my-3"
+                        onclick="displaySelectedPlayer(this)"
+                      >
+                        Select Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-3">
+                  <div
+                    class="card border-secondary bg-dark shadow-lg text-white"
+                    style="width: 16rem; height: 22rem"
+                  >
+                    <img src="images/salah.jpg" class="card-img-top" alt="" />
+                    <div class="card-body">
+                      <h5 class="card-title">Mohammad Salah</h5>
+
+                      <small class="me-2 fs-5">32 Goals</small>
+                      <small class="fs-5">79 Assist</small>
+
+                      <button
+                        href="#"
+                        class="btn btn-primary btn-disable d-block w-50 mx-auto my-3"
+                        onclick="displaySelectedPlayer(this)"
+                      >
+                        Select Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 text-white">
+              <div class="row">
+                <h1>Select- v</h1>
+
+                <table class="table text-white">
+                  <thead>
+                    <tr>
+                      <th scope="col">Numbers</th>
+                      <th scope="col">Player Name</th>
+                    </tr>
+                  </thead>
+                  <tbody id="table-body"></tbody>
+                </table>
+
+                <div class="budget p-5 text-center">
+                  <h1>Budget</h1>
+                  <div class="budget-top-section text-center">
+                    <span class="me-1">Per Player</span>
+
+                    <input
+                      class="bg-dark text-white border-white pe-2 h-25 mt-5 py-3"
+                      type="text"
+                      name=""
+                      id="player-price"
+                    />
+                    <button id="calculate" class="calculate-btn">
+                      Calculate
+                    </button>
+                    <p class="my-3 fs-4">
+                      Player Expenses: $<span id="player-expense">000</span>
+                    </p>
+                    <span class="me-3">Manager</span>
+
+                    <input
+                      class="bg-dark text-white border-white px-3 h-25 mt-5 py-3"
+                      type="text"
+                      name=""
+                      id="manager-price"
+                    />
+                    <p>
+                      <span class="me-3">Coach</span>
+
+                      <input
+                        class="bg-dark text-white border-white px-3 h-25 mt-5 py-3"
+                        type="text"
+                        name=""
+                        id="coach-price"
+                      />
+                    </p>
+                    <button class="calculate-btn" id="calculate-btn">
+                      Calculate Total
+                    </button>
+                    <div
+                      class="d-flex flex-row justify-content-around mt-5 fs-4"
+                    >
+                      <span>Total $</span>
+                      <span id="total">000</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=====================Main section ends here ==============-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

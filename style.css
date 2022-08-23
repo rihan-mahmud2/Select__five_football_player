@@ -1,0 +1,51 @@
+.header-heading {
+  color: #ff5e19;
+  margin-bottom: 2rem;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 80vh;
+}
+.header-img-top {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.header-img-bottom {
+  position: absolute;
+  bottom: 15rem;
+  right: 3rem;
+}
+
+.select-btn {
+  text-decoration: none;
+  color: white;
+  /* background-color: #b9fff8; */
+  padding: 5px 30px;
+  margin-top: 20px;
+}
+.budget-top-section{
+margin-top: 10px;
+
+}
+.budget {
+  background-color: #0d0d0d;
+}
+
+.calculate-btn {
+color: white;
+padding: 10px 70px;
+  background-color: #015196;
+  margin-top: 20px;
+}
+
+/* .button:hover {
+color: black;
+background-color: #b9fff8;
+
+} */
